@@ -1,0 +1,269 @@
+{
+    "targets": [
+        {
+            "isStage": true,
+            "name": "Stage",
+            "variables": {
+                "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+                    "my variable",
+                    0
+                ]
+            },
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "backdrop1",
+                    "dataFormat": "svg",
+                    "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+                    "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+                    "rotationCenterX": 240,
+                    "rotationCenterY": 180
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "pop",
+                    "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 1032,
+                    "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 0,
+            "tempo": 60,
+            "videoTransparency": 50,
+            "videoState": "on",
+            "textToSpeechLanguage": null
+        },
+        {
+            "isStage": false,
+            "name": "Sprite1",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                "7b4Q0M0_L6!Gux!uYWIL": {
+                    "opcode": "event_whenkeypressed",
+                    "next": "fwPb|7v(`/Hn3mm;GKMo",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 616,
+                    "y": 323
+                },
+                "$Mp{_+W3]/cUL;o6hu,-": {
+                    "opcode": "sensing_distanceto",
+                    "next": null,
+                    "parent": "/DH7+3P2{EhV%=7h*@aA",
+                    "inputs": {
+                        "DISTANCETOMENU": [
+                            1,
+                            "Z|)nkf`=q7I,*=omIsNb"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "Z|)nkf`=q7I,*=omIsNb": {
+                    "opcode": "sensing_distancetomenu",
+                    "next": null,
+                    "parent": "$Mp{_+W3]/cUL;o6hu,-",
+                    "inputs": {},
+                    "fields": {
+                        "DISTANCETOMENU": [
+                            "Casey",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "/DH7+3P2{EhV%=7h*@aA": {
+                    "opcode": "looks_say",
+                    "next": null,
+                    "parent": "fwPb|7v(`/Hn3mm;GKMo",
+                    "inputs": {
+                        "MESSAGE": [
+                            3,
+                            "$Mp{_+W3]/cUL;o6hu,-",
+                            [
+                                10,
+                                "Hello!"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "fwPb|7v(`/Hn3mm;GKMo": {
+                    "opcode": "motion_glideto",
+                    "next": "/DH7+3P2{EhV%=7h*@aA",
+                    "parent": "7b4Q0M0_L6!Gux!uYWIL",
+                    "inputs": {
+                        "SECS": [
+                            1,
+                            [
+                                4,
+                                "1"
+                            ]
+                        ],
+                        "TO": [
+                            1,
+                            "o^`TU2d)V?c,Bsn/+ju3"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "o^`TU2d)V?c,Bsn/+ju3": {
+                    "opcode": "motion_glideto_menu",
+                    "next": null,
+                    "parent": "fwPb|7v(`/Hn3mm;GKMo",
+                    "inputs": {},
+                    "fields": {
+                        "TO": [
+                            "_random_",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                }
+            },
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "costume1",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "bcf454acf82e4504149f7ffe07081dbc",
+                    "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
+                    "rotationCenterX": 48,
+                    "rotationCenterY": 50
+                },
+                {
+                    "name": "costume2",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "0fb9be3e8397c983338cb71dc84d0b25",
+                    "md5ext": "0fb9be3e8397c983338cb71dc84d0b25.svg",
+                    "rotationCenterX": 46,
+                    "rotationCenterY": 53
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "Meow",
+                    "assetId": "83c36d806dc92327b9e7049a565c6bff",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 37376,
+                    "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 2,
+            "visible": true,
+            "x": -167,
+            "y": -50,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        },
+        {
+            "isStage": false,
+            "name": "Casey",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "casey-a",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "e5a47371f3e9f853b36560cda35344b6",
+                    "md5ext": "e5a47371f3e9f853b36560cda35344b6.svg",
+                    "rotationCenterX": 75,
+                    "rotationCenterY": 62
+                },
+                {
+                    "name": "casey-b",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "e09e5ef2bdeb69163a543f3216c1f54c",
+                    "md5ext": "e09e5ef2bdeb69163a543f3216c1f54c.svg",
+                    "rotationCenterX": 60,
+                    "rotationCenterY": 74
+                },
+                {
+                    "name": "casey-c",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "50bd5162671b8a30fcfa3082a9e79ec4",
+                    "md5ext": "50bd5162671b8a30fcfa3082a9e79ec4.svg",
+                    "rotationCenterX": 57,
+                    "rotationCenterY": 72
+                },
+                {
+                    "name": "casey-d",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "ebc3de539e02801d420268eb189c5a47",
+                    "md5ext": "ebc3de539e02801d420268eb189c5a47.svg",
+                    "rotationCenterX": 71,
+                    "rotationCenterY": 74
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "basketball bounce",
+                    "assetId": "1727f65b5f22d151685b8e5917456a60",
+                    "dataFormat": "wav",
+                    "format": "adpcm",
+                    "rate": 22050,
+                    "sampleCount": 8129,
+                    "md5ext": "1727f65b5f22d151685b8e5917456a60.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 1,
+            "visible": true,
+            "x": 96,
+            "y": -17,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        }
+    ],
+    "monitors": [],
+    "extensions": [],
+    "meta": {
+        "semver": "3.0.0",
+        "vm": "1.5.76",
+        "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+    }
+}
